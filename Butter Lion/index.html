@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taipei City Pedestrian Cleaning Bins Analysis</title>
+    <meta name="description" content="A data-driven analysis and design report on Taipei City's pedestrian cleaning bins, featuring field surveys, interactive maps, and smart waste management solutions.">
+    <meta name="keywords" content="Taipei, waste management, smart bins, data analysis, urban design, cleaning bins, kepler.gl, Flourish, Pexels">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="Taipei City Pedestrian Cleaning Bins Analysis">
+    <meta property="og:description" content="A data-driven analysis and design report on Taipei City's pedestrian cleaning bins, featuring field surveys, interactive maps, and smart waste management solutions.">
+    <meta property="og:image" content="og-image.png">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourdomain.com/">
+    <!-- Twitter Card tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Taipei City Pedestrian Cleaning Bins Analysis">
+    <meta name="twitter:description" content="A data-driven analysis and design report on Taipei City's pedestrian cleaning bins, featuring field surveys, interactive maps, and smart waste management solutions.">
+    <meta name="twitter:image" content="og-image.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1>Taipei City Pedestrian Cleaning Bins</h1>
+                <div class="nav-links">
+                    <a href="#field-survey">Field Survey</a>
+                    <a href="#findings">Key Findings</a>
+                    <a href="#maps">Interactive Maps and Visualizations</a>
+                    <a href="#current-situation">Current Situation Analysis</a>
+                    <a href="#proposal-summary">From Challenges to Solutions</a>
+                    <a href="#design">Design Insights</a>
+                    <a href="#design-concept">Design Concept</a>
+                    <a href="#field-study">Field Study Photos</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="introduction" class="section">
+            <div class="container">
+                <div class="slogan">
+                    <strong>Smart technology for efficient waste management — easing labor, empowering citizens, and elevating urban sustainability.</strong>
+                </div>
+            </div>
+        </section>
+
+        <section id="field-survey" class="section">
+            <div class="container">
+                <h2>Field Survey</h2>
+                <div class="field-survey-row">
+                    <div class="field-survey-text">
+                        <h3>Uneven Distribution of Trash Bins and Inefficient Management</h3>
+                        <p>Despite the high pedestrian flow around the station, trash bins are limited in number or poorly positioned. When people are unable to locate a trash bin, they may resort to littering, resulting in a messy environment.</p>
+                    </div>
+                    <div class="field-survey-img">
+                        <img src="Uneven Distribution of Trash Bins and Inefficient Management.jpg" alt="Uneven Distribution of Trash Bins and Inefficient Management">
+                    </div>
+                </div>
+                <div class="field-survey-row">
+                    <div class="field-survey-img">
+                        <img src="Trash Bins Frequently Overflowing and Not Emptied Promptly.jpg" alt="Trash Bins Frequently Overflowing and Not Emptied Promptly">
+                    </div>
+                    <div class="field-survey-text">
+                        <h3>Trash Bins Frequently Overflowing and Not Emptied Promptly</h3>
+                        <p>The lack of a real-time monitoring system leads to trash bins not being emptied during peak hours, causing overflow, foul odors, and unsanitary conditions.</p>
+                    </div>
+                </div>
+                <div class="field-survey-row">
+                    <div class="field-survey-text">
+                        <h3>Widespread Littering of Cigarette Butts, Causing Fire and Health Hazards</h3>
+                        <p>Cigarette butts are commonly seen on roads and sidewalks. These not only pollute soil and water but can also start fires or clog drainage systems, affecting public safety and the city's appearance.</p>
+                    </div>
+                    <div class="field-survey-img">
+                        <img src="Widespread Littering of Cigarette Butts, Causing Fire and Health Hazards.jpg" alt="Widespread Littering of Cigarette Butts, Causing Fire and Health Hazards">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="findings" class="section">
+            <div class="container">
+                <h2>Key Findings</h2>
+                <div class="findings-grid">
+                    <div class="finding-card finding-geographical">
+                        <h3>Geographical Coverage</h3>
+                        <p>1,926 cleaning bins distributed across Taipei City, with concentrated presence in urban centers.</p>
+                    </div>
+                    <div class="finding-card finding-district">
+                        <h3>District Distribution</h3>
+                        <p>Highest concentration in Zhongzheng, Shilin, and Da'an districts, reflecting population density patterns.</p>
+                    </div>
+                    <div class="finding-card finding-strategic">
+                        <h3>Strategic Placement</h3>
+                        <p>Multiple bins at high-traffic locations such as bus stops and major intersections.</p>
+                    </div>
+                    <div class="finding-card finding-regulatory">
+                        <h3>Regulatory Framework</h3>
+                        <p>Strict enforcement with NT$6,000 fine for household waste disposal violations.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="maps" class="section">
+            <div class="container">
+                <h2>Interactive Maps and Visualizations</h2>
+                <div class="interactive-viz">
+                    <h3>Geographic Distribution Map</h3>
+                    <div class="kepler-container">
+                        <iframe src="kepler.gl.html" frameborder="0" width="100%" height="600px"></iframe>
+                    </div>
+                    
+                    <h3>District Distribution Analysis</h3>
+                    <div class="flourish-container">
+                        <iframe src='https://flo.uri.sh/visualisation/23063432/embed' 
+                                title='Interactive or visual content' 
+                                class='flourish-embed-iframe' 
+                                frameborder='0' 
+                                scrolling='no' 
+                                style='width:100%;height:600px;' 
+                                sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'>
+                        </iframe>
+                        <div class="flourish-credit">
+                            <a href='https://public.flourish.studio/visualisation/23063432/?utm_source=embed&utm_campaign=visualisation/23063432' 
+                               target='_top'>
+                                <img alt='Made with Flourish' 
+                                     src='https://public.flourish.studio/resources/made_with_flourish.svg'>
+                            </a>
+                        </div>
+                    </div>
+
+                    <h3>Address Frequency Analysis</h3>
+                    <div class="flourish-container">
+                        <iframe src='https://flo.uri.sh/visualisation/23067724/embed' 
+                                title='Interactive or visual content' 
+                                class='flourish-embed-iframe' 
+                                frameborder='0' 
+                                scrolling='no' 
+                                style='width:100%;height:600px;' 
+                                sandbox='allow-same-origin allow-forms allow-scripts allow-downloads allow-popups allow-popups-to-escape-sandbox allow-top-navigation-by-user-activation'>
+                        </iframe>
+                        <div class="flourish-credit">
+                            <a href='https://public.flourish.studio/visualisation/23067724/?utm_source=embed&utm_campaign=visualisation/23067724' 
+                               target='_top'>
+                                <img alt='Made with Flourish' 
+                                     src='https://public.flourish.studio/resources/made_with_flourish.svg'>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="current-situation" class="section">
+            <div class="container">
+                <h2>Current Situation Analysis</h2>
+                <div class="field-survey-row">
+                    <div class="field-survey-img">
+                        <img src="Current Situation Analysis.jpg" alt="Current Situation Analysis">
+                    </div>
+                    <div class="field-survey-text">
+                        <h3 class="situation-title">Increased Pressure on Sorting Efficiency and Accuracy</h3>
+                        <p class="situation-desc">A higher volume of recyclables requires more meticulous sorting. However, do sanitation workers have sufficient capacity and time to manage this demand? Without proactive updates and maintenance, the system risks declining efficiency and worsening sanitation conditions.</p>
+                        <h3 class="situation-title">Increased Workload</h3>
+                        <p class="situation-desc">From 2020 to 2022, the volume of waste surged by approximately 50%, yet there has been no significant increase in manpower. This has resulted in a substantial rise in the workload per person.</p>
+                    </div>
+                </div>
+                <h2>Proposed Solutions</h2>
+                <div class="current-situation-grid">
+                    <div class="current-situation-card">
+                        <strong>Implement Smart Trash Bins and IoT Monitoring Systems</strong>
+                        <span>These can reduce incorrect disposal, provide real-time feedback on bin capacity, and improve sorting accuracy and collection efficiency.</span>
+                    </div>
+                    <div class="current-situation-card">
+                        <strong>Enhance Education and Incentives for Recycling</strong>
+                        <span>Incorporate NFC/QR code check-in systems to encourage the public to sort waste correctly and earn reward points.</span>
+                    </div>
+                    <div class="current-situation-card">
+                        <strong>Establish a Smart Logistics Platform (newly proposed – optional to include)</strong>
+                        <span>Integrate waste collection data, bin status monitoring, vehicle dispatch, and workforce scheduling to optimize resource allocation.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="proposal-summary" class="section">
+            <div class="container">
+                <h2>From Challenges to Solutions</h2>
+                <div class="proposal-row">
+                    <div class="proposal-title">
+                        Challenges: Surge in Waste Volume & Workforce Pressure
+                    </div>
+                    <div class="proposal-content">
+                        In recent years, waste processing demands have risen significantly. Traditional labor-intensive models are no longer sufficient. Real-time monitoring and data-driven management are now essential to handle the growing load efficiently.
+                    </div>
+                </div>
+                <div class="proposal-row">
+                    <div class="proposal-title">
+                        Solutions: Improving Sorting Accuracy, Enhancing Recycling Efficiency, and Promoting Citizen Engagement
+                    </div>
+                    <div class="proposal-content">
+                        By integrating sensors and visual feedback (such as indicator lights), citizens can be guided to dispose of waste correctly. The system is further supported by a mobile app with incentive mechanisms to encourage eco-friendly behavior.<br>
+                        With NFC/QR code check-ins and carbon reduction feedback, waste sorting becomes a collective action, turning sustainability into an accessible and engaging part of everyday life.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="design" class="section">
+            <div class="container">
+                <h2>Design Insights</h2>
+                <div class="design-grid">
+                    <div class="design-card">
+                        <h3>Accessibility</h3>
+                        <p>Strategic placement in high-traffic areas ensures maximum accessibility for pedestrians.</p>
+                    </div>
+                    <div class="design-card">
+                        <h3>Urban Integration</h3>
+                        <p>Bin distribution aligns with population density and urban activity patterns.</p>
+                    </div>
+                    <div class="design-card">
+                        <h3>Regulatory Compliance</h3>
+                        <p>Clear signage and consistent enforcement policy across all locations.</p>
+                    </div>
+                </div>
+                <div style="margin-top: 40px;">
+                    <h3>Target Audiences & Ideation Insights</h3>
+                    <div class="target-audience-grid">
+                        <div class="target-audience-card">
+                            <img src="Citizens and Tourists with Waste Disposal Needs.jpg" alt="Citizens and Tourists with Waste Disposal Needs" class="audience-img">
+                            <strong>Citizens and Tourists with Waste Disposal Needs</strong>
+                            <span><em>Ideation Insight:</em> Reward individuals who properly dispose of waste by converting their earned points into transportation subsidies or travel funds.</span>
+                        </div>
+                        <div class="target-audience-card">
+                            <img src="Smokers.jpg" alt="Smokers" class="audience-img">
+                            <strong>Smokers</strong>
+                            <span><em>Ideation Insight:</em> Smokers who dispose of cigarette butts correctly in designated smoking areas can receive small gifts as incentives.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="design-concept" class="section">
+            <div class="container">
+                <h2>Design Concept</h2>
+                <div class="product-preview-row" style="display: flex; align-items: center; gap: 40px; margin-bottom: 44px; flex-wrap: wrap; justify-content: center;">
+                    <img src="iot can.jpg" alt="Smart Trash Bin Product" class="product-preview-img">
+                    <div class="product-preview-text">
+                        <div class="product-preview-title">Preview of the Proposed Smart Trash Bin Product</div>
+                        <div class="product-preview-desc">Integrating real-time monitoring, sorting, and user interaction features, this smart trash bin is designed to enhance waste management efficiency and user experience in public spaces.</div>
+                    </div>
+                </div>
+                <h3>Interactive Smart Trash Bin Design Concept</h3>
+                <div class="design-concept-grid">
+                    <div class="design-concept-card">
+                        <strong>Multi-compartment design for better waste sorting.</strong>
+                        <span>Each compartment is clearly labeled to help users separate recyclables, general waste, and cigarette butts efficiently.</span>
+                    </div>
+                    <div class="design-concept-card">
+                        <strong>LED panel displays real-time bin capacity and sorting instructions.</strong>
+                        <span>Users can instantly see which bins are full and receive guidance on proper sorting.</span>
+                    </div>
+                    <div class="design-concept-card">
+                        <strong>Sensors detect waste levels and transmit data to the mobile app.</strong>
+                        <span>Sanitation teams and citizens can monitor bin status in real time, improving collection efficiency.</span>
+                    </div>
+                    <div class="design-concept-card">
+                        <strong>NFC/QR code readers for eco check-ins.</strong>
+                        <span>Users scan their transportation cards or phones to log eco-friendly actions and earn rewards.</span>
+                    </div>
+                    <div class="design-concept-card">
+                        <strong>Audio/visual feedback for sorting accuracy.</strong>
+                        <span>The system provides instant feedback to encourage correct disposal and reinforce positive behavior.</span>
+                    </div>
+                    <div class="design-concept-card">
+                        <strong>Track daily eco-friendly actions via mobile app.</strong>
+                        <span>Users can view their green actions, points, and achievements, making sustainability engaging and rewarding.</span>
+                    </div>
+                </div>
+                <h3>Mobile Map Application Design Concept</h3>
+                <div class="design-concept-grid">
+                    <div class="design-concept-card">
+                        <strong>Trash Bin Locator</strong>
+                        <span>Integrates GPS and open data to show the nearest public trash bins and legal dumping zones. Users can plan walking routes accordingly.</span>
+                    </div>
+                    <div class="design-concept-card">
+                        <strong>Real-time Bin Capacity Display</strong>
+                        <span>Each smart bin visually indicates its current capacity level (High/Medium/Low) using progress bars or color changes. Full bins are shown in orange, available bins in green.</span>
+                    </div>
+                    <div class="design-concept-card">
+                        <strong>Waste Sorting Assistant</strong>
+                        <span>Users can take a photo or input the item name to receive instructions on how to properly sort and recycle it.</span>
+                    </div>
+                    <div class="design-concept-card">
+                        <strong>Carbon Reduction Info</strong>
+                        <span>Displays estimated carbon emissions reduced through proper sorting and responsible disposal. Visual elements like growing tree animations help users understand their positive environmental impact.</span>
+                    </div>
+                    <div class="design-concept-card">
+                        <strong>Reward System</strong>
+                        <span>Encourages proper sorting and use of public trash bins by letting users accumulate points. Points can be redeemed for discounts, small gifts, or eco badges that track progress and achievements.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="field-study" class="section">
+            <div class="container">
+                <h2>Field Study Photos</h2>
+                <div class="photo-grid">
+                    <div class="photo-card">
+                        <img src="LINE_ALBUM_2025422_250508_1.jpg" alt="Pedestrian cleaning bins on a city sidewalk">
+                        <p>Pedestrian cleaning bins on a city sidewalk</p>
+                    </div>
+                    <div class="photo-card">
+                        <img src="LINE_ALBUM_2025422_250508_4.jpg" alt="Bins in a park area">
+                        <p>Bins in a park area</p>
+                    </div>
+                    <div class="photo-card">
+                        <img src="LINE_ALBUM_2025422_250508_5.jpg" alt="Overflowing bins and street waste">
+                        <p>Overflowing bins and street waste</p>
+                    </div>
+                    <div class="photo-card">
+                        <img src="LINE_ALBUM_校外教學_250508_1.jpg" alt="Pedestrian bins near a busy intersection">
+                        <p>Pedestrian bins near a busy intersection</p>
+                    </div>
+                    <div class="photo-card">
+                        <img src="LINE_ALBUM_校外教學_250508_2.jpg" alt="Field study team under arcade">
+                        <p>Field study team under arcade</p>
+                    </div>
+                    <div class="photo-card">
+                        <img src="LINE_ALBUM_校外教學_250508_3.jpg" alt="Team documenting bins on site">
+                        <p>Team documenting bins on site</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="source" class="section">
+            <div class="container">
+                <h2>Data Source</h2>
+                <p>Data sourced from Taipei City Government's open data platform. Analysis conducted in 2024.<br>
+                Photographs sourced from Pexels.<br>
+                Data visualizations created using Flourish.<br>
+                Geospatial mapping designed with kepler.gl.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Taipei City Pedestrian Cleaning Bins Analysis</p>
+        </div>
+    </footer>
+
+    <button id="backToTop" title="Back to Top">↑</button>
+    <script src="scripts.js"></script>
+</body>
+</html> 
